@@ -1,7 +1,7 @@
 body{
     max-width: 1000px;
     margin: 0 auto;
-    background-color: red;
+    background-color: white;
     ul{
         padding: 0;
         li {
@@ -12,10 +12,10 @@ body{
 }
 
 .container {
-    background-color: wheat;
+    background-color: #F58840;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     h1 {
         color: black;
         font-size: 55px;
@@ -30,23 +30,23 @@ body{
     justify-content: space-around;
     width: 30%;
     padding: 25px;
-    background-color: Black;
+    background-color: #EADEDE;
     img  {
         width: 150px;
         height: 150px;
-        background-color: red;
+        background-color: black;
         display: block;
         margin-bottom: 50px;
         margin-left: auto;
         margin-right: auto;
     }
     h2 {
-        color: white;
+        color: black;
         font-size: 22px;
         margin: 25px 0 15px 0;
     }
     p {
-        color: white;
+        color: #B85252;
         margin: 0;
     }
 
@@ -65,7 +65,7 @@ body{
     }
 }
 .right {
-    width: 50%;
+    width: 60%;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -82,6 +82,7 @@ body{
             font-size: 16px;
             color: black;
             margin-bottom: 5px;
+            text-align: center;
         }
     }
     .education, .experience {
