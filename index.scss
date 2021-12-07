@@ -1,7 +1,7 @@
 body{
     max-width: 1000px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #EEEEEE;
     ul{
         padding: 0;
         li {
@@ -12,12 +12,12 @@ body{
 }
 
 .container {
-    background-color: #F58840;
+    background-color: #393E46;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     h1 {
-        color: black;
+        color: #FFD369;
         font-size: 55px;
         text-align: center;
         margin: 0 auto;
@@ -30,11 +30,11 @@ body{
     justify-content: space-around;
     width: 30%;
     padding: 25px;
-    background-color: #EADEDE;
-    img  {
+    background-color: #FFD369;
+    .portrait  {
         width: 150px;
         height: 150px;
-        background-color: black;
+        background-color: #EEEEEE;
         display: block;
         margin-bottom: 50px;
         margin-left: auto;
@@ -46,20 +46,17 @@ body{
         margin: 25px 0 15px 0;
     }
     p {
-        color: #B85252;
+        color: black;
         margin: 0;
     }
 
     ul {
-        color: white;
+        color: black;
     }
 
     .picto  {
         ul {
             display: flex;
-            li {
-                background-color: white;
-            }
         }
         
     }
@@ -72,6 +69,10 @@ body{
     justify-content: space-between;
     h3 {
         font-size: 22px;
+        background-color: #EEEEEE;
+        padding: 10px 5px;
+        border-radius: 5px;
+        color : black;
         letter-spacing: 2px;
         text-align: center;
         text-transform: uppercase;
@@ -80,14 +81,14 @@ body{
     .name {
         li {
             font-size: 16px;
-            color: black;
+            color: #EEEEEE;
             margin-bottom: 5px;
             text-align: center;
         }
     }
     .education, .experience {
         li{
-            color: black;
+            color: #FFD369;
 
             &:nth-child(1) {
                 margin-left: 20px;
@@ -100,6 +101,9 @@ body{
                 margin-bottom: 10px;
             }
 
+        }
+        p {
+            color: #EEEEEE;
         }
     }
 }

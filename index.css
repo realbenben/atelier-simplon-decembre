@@ -1,7 +1,7 @@
 body {
   max-width: 1000px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #EEEEEE;
 }
 
 body ul {
@@ -13,7 +13,7 @@ body ul li {
 }
 
 .container {
-  background-color: #F58840;
+  background-color: #393E46;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,7 +25,7 @@ body ul li {
 }
 
 .container h1 {
-  color: black;
+  color: #FFD369;
   font-size: 55px;
   text-align: center;
   margin: 0 auto;
@@ -43,13 +43,13 @@ body ul li {
       justify-content: space-around;
   width: 30%;
   padding: 25px;
-  background-color: #EADEDE;
+  background-color: #FFD369;
 }
 
-.left img {
+.left .portrait {
   width: 150px;
   height: 150px;
-  background-color: black;
+  background-color: #EEEEEE;
   display: block;
   margin-bottom: 50px;
   margin-left: auto;
@@ -63,22 +63,18 @@ body ul li {
 }
 
 .left p {
-  color: #B85252;
+  color: black;
   margin: 0;
 }
 
 .left ul {
-  color: white;
+  color: black;
 }
 
 .left .picto ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.left .picto ul li {
-  background-color: white;
 }
 
 .right {
@@ -98,6 +94,10 @@ body ul li {
 
 .right h3 {
   font-size: 22px;
+  background-color: #EEEEEE;
+  padding: 10px 5px;
+  border-radius: 5px;
+  color: black;
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
@@ -106,13 +106,13 @@ body ul li {
 
 .right .name li {
   font-size: 16px;
-  color: black;
+  color: #EEEEEE;
   margin-bottom: 5px;
   text-align: center;
 }
 
 .right .education li, .right .experience li {
-  color: black;
+  color: #FFD369;
 }
 
 .right .education li:nth-child(1), .right .experience li:nth-child(1) {
@@ -125,5 +125,9 @@ body ul li {
   margin-left: 20px;
   font-weight: 700;
   margin-bottom: 10px;
+}
+
+.right .education p, .right .experience p {
+  color: #EEEEEE;
 }
 /*# sourceMappingURL=index.css.map */
