@@ -56,6 +56,20 @@ body ul li {
   margin-right: auto;
 }
 
+.left .picto ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.left .picto ul a {
+  margin: 0 5px;
+}
+
+.left .picto ul a img {
+  height: 40px;
+}
+
 .left h2 {
   color: black;
   font-size: 22px;
